@@ -21,6 +21,7 @@ struct ContentView: View {
                 .padding(EdgeInsets(top: 0, leading: 10, bottom: 10, trailing: 10))
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
             
+            
             CustomButtonRow(row:[.command(.clear),.command(.flip),.command(.present),.op(.devide)])
             CustomButtonRow(row:[.digit(7),.digit(8),.digit(9),.op(.multiply)])
             CustomButtonRow(row:[.digit(4),.digit(5),.digit(6),.op(.minus)])
